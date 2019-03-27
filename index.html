@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+
+    <title>Letter from OSF</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <form id="personAddress">
+          <div class="form-group">
+            <label for="personName">Full Name</label>
+            <input id="personName" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address1">Address Line 1</label>
+            <input id="address1" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address2">Address Line 2</label>
+            <input id="address2" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="city">City</label>
+            <input id="city" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="stateAndZipcode">State and zipcode</label>
+            <input id="stateAndZipcode" class="form-control" type="text">
+          </div>
+
+          <button type="submit" class="btn btn-info">Submit</button>
+        </form>
+      </div>
+      <div id="formLetter">
+        <p><span class="personName"></span><br />
+        <span class="address1"></span><br />
+        <span class="address2"></span><br />
+        <span class="city"></span><br />
+        <span class="stateAndZipcode"></span></p>
+        <br />
+        <p>Dear <span class="personName"></span>,</p>
+        <br />
+        <p>Praesent molestie orci ac fermentum vestibulum. Maecenas vestibulum feugiat lectus, vel placerat neque interdum eu. Vestibulum dictum et dui sed luctus. Nunc cursus vel lorem quis condimentum. Aenean at arcu non risus faucibus sagittis. Maecenas scelerisque elit et efficitur sodales. Aenean porttitor nulla in ex ornare efficitur. In ligula dui, pharetra aliquet cursus eu, ultricies nec nulla. Vivamus aliquet tincidunt purus, sit amet volutpat dui fringilla in. Curabitur nec tortor ultrices ex faucibus aliquam in quis magna. In ut turpis lacinia, condimentum eros ac, lacinia orci. Donec volutpat quam mi, in lobortis dui pellentesque at. Suspendisse et sem eu augue lacinia fermentum eget id ante. Phasellus accumsan tellus eget dolor mollis, eget lobortis nisl porta.</p>
+
+        <p>Etiam eu neque et orci posuere pretium id nec nisi. Maecenas dignissim ultrices nisl non iaculis. In lacus arcu, egestas eu nibh nec, placerat mattis nibh. Fusce lacinia cursus massa sit amet dignissim. Etiam quis vestibulum elit, vitae ultrices est. Nullam sed gravida lorem, auctor feugiat erat. Aliquam ultricies urna sit amet viverra condimentum. Aenean arcu leo, bibendum eget tortor eget, sodales venenatis justo. Mauris luctus risus porta, commodo purus id, sollicitudin nulla. Aliquam nec sollicitudin libero. Nullam ut felis eget nisl commodo mattis. Integer feugiat vestibulum eros quis venenatis.</p>
+
+        <p>Yours Most Sincerely,</p>
+        <p>Oregon Shakespeare Festival</p>
+      </div>
+
+  </body>
+</html>
